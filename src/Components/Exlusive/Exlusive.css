@@ -1,0 +1,176 @@
+.Exlusive-main{
+    width: auto;
+    height: 400px;
+    font-family: poppins;
+    display: flex;
+    background: linear-gradient(90deg,#32405F, #D8525E);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}   
+    .Left-container{
+        width: 300px;
+        height: 400px;
+    }   
+        .Exlusive-main img{
+            width: 285px;
+        }
+    .Right-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }   
+        #Exlusive-Bold{
+            font-size: 50px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            color: rgb(255, 255, 255);
+        }
+        #Exlusive-Text{
+            font-size: 15px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .Right-container button{
+            width: 120px;
+            height: 30px;
+            margin-top: 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            font-size: 10px;
+            cursor: pointer;
+            border-radius: 30px;
+            border: none;
+        } 
+
+@media(max-width: 1024px){
+
+        .Exlusive-main{
+            width: auto;
+            height: 350px;
+            gap: 20px;
+        }   
+        .Exlusive-main img{
+            width: 260px;
+        }
+        #Exlusive-Bold{
+            font-size: 45px;
+            font-weight: 400;
+        }
+        #Exlusive-Text{
+            font-size: 10px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .Right-container button{
+            width: 100px;
+            height: 30px;
+            margin-top: 20px;
+            border: none;
+            font-size: 9px;
+  
+        } 
+}
+@media(max-width:900px){
+        .Exlusive-main{
+            width: auto;
+            height: 340px;
+            gap: 20px;
+        }   
+        .Exlusive-main img{
+            width: 260px;
+        }
+        #Exlusive-Bold{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        #Exlusive-Text{
+            font-size: 10px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .Right-container button{
+            width: 95px;
+            height: 28px;
+            margin-top: 20px;
+            border: none;
+            font-size: 8px;
+  
+        } 
+}
+@media(max-width: 786px){
+      .Exlusive-main{
+            width: auto;
+            height: 320px;
+            gap: 20px;
+        }   
+        .Exlusive-main img{
+            width: 250px;
+        }
+        #Exlusive-Bold{
+            font-size: 40px;
+            font-weight: 400;
+        }
+        #Exlusive-Text{
+            font-size: 10px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .Right-container button{
+            width: 95px;
+            height: 28px;
+            margin-top: 20px;
+            border: none;
+            font-size: 8px;
+  
+        } 
+}        
+@media(max-width: 480px){
+    .Exlusive-main{
+            width: auto;
+            height: 220px;
+    
+       }   
+       .Left-container{
+        width: 160px;
+        height: 310px;
+        }
+        .Exlusive-main img{
+            width: 190px;
+            
+        }
+        #Exlusive-Bold{
+            font-size: 30px;
+            font-weight: 400;
+        }
+        #Exlusive-Text{
+            font-size: 10px;
+            font-weight: 400;
+            margin: 0;
+            padding: 0;
+            margin-top: 10px;
+            color: rgb(255, 255, 255);
+        }
+        .Right-container button{
+            width: 70px;
+            height: 25px;
+            margin-top: 20px;
+            border: none;
+            font-size: 7px;
+  
+        } 
+}

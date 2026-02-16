@@ -1,0 +1,571 @@
+.MainProduct-Details{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    margin-top: 110px;
+}
+    .MainProduct1{
+        display: flex;
+        gap: 20px;
+    }
+        .MainProduct1-left{
+            display: flex;
+        }
+        .display-4{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+            .display-4 img{
+                width: 60px;
+            }
+        .display-main{
+            margin-left: 10px;
+        }
+            .display-main img{
+                width: 260px;
+            }
+
+/*==============*/
+        .MainProduct1-right{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+            #product-name{
+                font-family: poppins;
+                font-size: 18px;
+                width: 500px;
+                margin: 0;
+            }
+            .Star-container{
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                font-size: 8px;
+                font-family: poppins;
+                margin-top: 10px;
+            }
+               .Star-container img{
+                width: 12px;
+               } 
+            #product-price{
+                font-family: poppins;
+                margin: 0;
+                font-size: 20px;
+                width: 500;
+                color: red;
+                margin-top: 5px;
+            }
+            #product-details{
+                font-family: poppins;
+                margin: 0;
+                font-size: 12px;
+                font-weight: 200;
+                margin-top: 5px;
+            }
+            #product-category{
+                font-family: poppins;
+                margin: 0;
+                margin-top: 5px;
+                
+            }
+            #product-size{
+                font-family: poppins;
+                margin-top: 10px;
+            }
+            .Sizes{
+                display: flex;
+                gap: 10px;
+                font-family: poppins;
+            }
+            .Sizes div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 10px;
+                font-weight: 500;
+                border: solid 1px gray;
+            }
+            .MainProduct1-right button{
+                width: 100px;
+                height: 30px;
+                border: none;
+                color: aliceblue;
+                background-color: rgb(82, 80, 80);
+                font-family: poppins;
+                font-weight: 300;
+                font-size: 12px;
+                margin-top: 20px;
+                cursor: pointer;
+                transition: 
+                background-color 0.3s ease,
+                transform 0.2s ease,
+                box-shadow 0.2s ease;
+            }
+
+            .MainProduct1-right button:hover{
+                background-color: #be1818d3;
+                color: rgb(250, 255, 245);
+                transform: translateY(-2px);
+                box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+            }
+
+    .MainProduct2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }     
+        .Description{
+            display: flex;
+    
+        }
+            .Description{
+                font-family: poppins;
+                font-size: 10px;
+            }
+        .Description div{
+            width: 80px;
+            height: 30px;
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: solid rgb(151, 149, 149) 1px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Description-text{
+            width: 850px;
+            height: 100px;
+            background: rgb(255, 255, 255);
+            border: solid rgb(151, 149, 149) 1px;
+        }
+            .Description-text{
+                font-family: poppins;
+                text-align: justify;
+                padding: 20px;
+                font-size: 11px;
+                margin: 0;
+            }
+
+
+
+@media(max-width:1024px){
+
+    .MainProduct-Details{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 110px;
+}
+    .MainProduct1{
+        display: flex;
+        gap: 20px;
+    }
+        .MainProduct1-left{
+            display: flex;
+        }
+        .display-4{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+            .display-4 img{
+                width: 60px;
+            }
+        .display-main{
+            margin-left: 10px;
+        }
+            .display-main img{
+                width: 260px;
+            }
+
+/*==============*/
+        .MainProduct1-right{
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+        }
+            #product-name{
+                font-family: poppins;
+                font-size: 18px;
+                width: 500px;
+                margin: 0;
+            }
+            .Star-container{
+                display: flex;
+                gap: 5px;
+                align-items: center;
+                font-size: 8px;
+                margin-top: 10px;
+            }
+               .Star-container img{
+                width: 12px;
+               } 
+            #product-price{
+                font-family: poppins;
+                margin: 0;
+                font-size: 20px;
+                width: 500;
+                margin-top: 5px;
+            }
+            #product-details{
+                margin: 0;
+                font-size: 12px;
+                font-weight: 200;
+                margin-top: 5px;
+            }
+            #product-category{
+                margin: 0;
+                margin-top: 5px;
+                
+            }
+            #product-size{
+                font-family: poppins;
+                margin-top: 10px;
+            }
+            .Sizes{
+                display: flex;
+                gap: 10px;
+                font-family: poppins;
+            }
+            .Sizes div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                font-size: 10px;
+                font-weight: 500;
+            }
+            .MainProduct1-right button{
+                width: 100px;
+                height: 30px;
+                border: none;
+                font-weight: 300;
+                font-size: 12px;
+                margin-top: 20px;
+            }
+
+       
+
+    .MainProduct2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }     
+        .Description{
+            display: flex;
+    
+        }
+            .Description{
+                font-family: poppins;
+                font-size: 10px;
+            }
+        .Description div{
+            width: 80px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Description-text{
+            width: 850px;
+            height: 100px;
+        }
+            .Description-text{
+                font-family: poppins;
+                text-align: justify;
+                padding: 20px;
+                font-size: 11px;
+                margin: 0;
+            }
+
+}
+
+
+@media(max-width:786px){
+    
+     .MainProduct-Details{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+    .MainProduct1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+    }
+        .MainProduct1-left{
+            display: flex;
+        }
+        .display-4{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+            .display-4 img{
+                width: 50px;
+            }
+        .display-main{
+            margin-left: 10px;
+        }
+            .display-main img{
+                width: 219px;
+            }
+
+/*==============*/
+        .MainProduct1-right{
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+        }
+            #product-name{
+                font-family: poppins;
+                font-size: 18px;
+                width: 500px;
+                margin: 0;
+            }
+            .Star-container{
+                display: flex;
+                gap: 3px;
+                align-items: center;
+                font-size: 8px;
+                margin-top: 7px;
+            }
+               .Star-container img{
+                width: 10px;
+               } 
+            #product-price{
+                font-family: poppins;
+                margin: 0;
+                font-size: 18px;
+                width: 500;
+                margin-top: 5px;
+            }
+            #product-details{
+                margin: 0;
+                font-size: 10px;
+                font-weight: 200;
+                margin-top: 5px;
+            }
+            #product-category{
+                margin: 0;
+                margin-top: 5px;
+                font-size: 15px;
+            }
+        
+            #product-size{
+                font-family: poppins;
+                margin-top: 10px;
+            }
+            .Sizes{
+                display: flex;
+                gap: 10px;
+                font-family: poppins;
+            }
+            .Sizes div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 25px;
+                height: 25px;
+                text-align: center;
+                font-size: 10px;
+                font-weight: 500;
+            }
+            .MainProduct1-right button{
+                width: 90px;
+                height: 25px;
+                border: none;
+                font-weight: 200;
+                font-size: 11px;
+                margin-top: 20px;
+            }
+
+       
+
+    .MainProduct2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }     
+        .Description{
+            display: flex;
+    
+        }
+            .Description{
+                font-family: poppins;
+                font-size: 10px;
+            }
+        .Description div{
+            width: 70px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Description-text{
+            width: 600px;
+            height: 80px;
+        }
+            .Description-text{
+                font-family: poppins;
+                text-align: justify;
+                padding: 10px;
+                font-size: 9px;
+                margin: 0;
+            }
+
+}
+
+
+@media(max-width:480px){
+    .MainProduct-Details{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+}
+    .MainProduct1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+        .MainProduct1-left{
+            display: flex;
+        }
+        .display-4{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+            .display-4 img{
+                width: 45px;
+            }
+        .display-main{
+            margin-left: 10px;
+        }
+            .display-main img{
+                width: 199px;
+            }
+
+/*==============*/
+        .MainProduct1-right{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+        }
+            #product-name{
+                font-family: poppins;
+                font-size: 18px;
+                width: 500px;
+                margin: 0;
+            }
+            .Star-container{
+                display: flex;
+                gap: 2px;
+                align-items: center;
+                font-size: 8px;
+                margin-top: 0px;
+            }
+               .Star-container img{
+                width: 10px;
+               } 
+            #product-price{
+                font-family: poppins;
+                margin: 0;
+                font-size: 15px;
+                width: 500;
+                margin-top: 5px;
+            }
+            #product-details{
+                margin: 0;
+                font-size: 9px;
+                font-weight: 200;
+                margin-top: 5px;
+            }
+            #product-category{
+                margin: 0;
+                margin-top: 5px;
+                font-size: 11px;
+            }
+        
+            #product-size{
+                font-family: poppins;
+                margin-top: 9px;
+                font-size: 10px;
+            }
+            .Sizes{
+                display: flex;
+                gap: 9px;
+                font-family: poppins;
+            }
+            .Sizes div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                font-size: 9px;
+                font-weight: 500;
+            }
+            .MainProduct1-right button{
+                width: 80px;
+                height: 20px;
+                border: none;
+                font-weight: 200;
+                font-size: 9px;
+                margin-top: 10px;
+            }
+
+       
+
+    .MainProduct2{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }     
+        .Description{
+            display: flex;
+    
+        }
+            .Description{
+                font-family: poppins;
+                font-size: 8px;
+            }
+        .Description div{
+            width: 60px;
+            height: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Description-text{
+            width: 300px;
+            height: 100px;
+        }
+            .Description-text{
+                font-family: poppins;
+                text-align: justify;
+                padding: 5px;
+                font-size: 8px;
+                margin: 0;
+            }
+}
+

@@ -1,0 +1,503 @@
+.Cart-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cartitems-format-main{
+    margin-top: 100px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding: 20px 0px;
+    color: #454545;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: poppins;
+    border-bottom: solid;
+}
+
+    .CartItems-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 75px;
+        padding: 20px 0px;
+        color: #141414;
+        font-size: 13px;
+        font-weight: 500;
+        font-family: poppins;
+        border-bottom: solid;
+    }
+        .CartItems-container img{
+            width: 50px;
+        }
+        #Remove-cart{
+            width: 80px;
+            height: 25px;
+            border: none;
+            background-color: rgb(17, 17, 17);
+            color: aliceblue;
+            font-family: poppins;
+            font-size: 10px;
+            font-weight: 400;
+            border-radius: 20px;
+            cursor: pointer;
+            overflow: hidden;
+             transition: 
+            background-color 0.3s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    
+    }
+
+        
+        #Remove-cart:hover {
+            background-color: #e4360bd3;
+            color: rgb(250, 255, 245);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+     
+.Computation-container{
+    width: 80%;
+    display: flex;
+    font-family: poppins;
+    gap: 30px;
+}        
+    .Totals-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+    }
+    .Totals-container hr{
+        height: 1px;
+        width: 300px;
+        background-color: #454545;
+    }
+    .subtotal{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-family: poppins;
+        font-weight: 500;
+    }
+    .shipping-fee{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+    }
+    .Total{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    #checkout-button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 500px;
+        background-color: rgb(121, 41, 41);
+        color: aliceblue;
+        font-family: poppins;
+        border: none;
+        border-radius: 1px;
+        cursor: pointer;
+            overflow: hidden;
+             transition: 
+            background-color 0.3s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    
+    }        
+        #checkout-button:hover {
+            background-color: #2dc919d3;
+            color: rgb(250, 255, 245);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+    .Promo-container{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Promo-container button{
+        width: 120px;
+        height: 40px;
+        font-size: 16px;
+        background: gray;
+        color: #e2e2e2;
+        cursor: pointer;
+        border: none;
+    }
+    .Promo-container input{
+        border: none;
+        outline: none;
+        background: rgb(226, 224, 224);
+        font-size: 16px;
+        width: 330px;
+        height: 40px;
+        padding-left: 10px;
+    }
+
+    .modal-overlay{
+        display: block;
+        width: 500px;
+        height: 500px;
+        border-radius: 30px;
+        background-color: #ccc;
+    }
+
+
+
+@media(max-width:1024px){
+    .Cart-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cartitems-format-main{
+    margin-top: 100px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: solid 2px;
+}
+
+    .CartItems-container{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 70px;
+        padding: 20px 0px;
+        color: #141414;
+        font-size: 12px;
+        font-weight: 500;
+        font-family: poppins;
+        border-bottom: solid 1px;
+    }
+        .CartItems-container img{
+            width: 40px;
+        }
+        #Remove-cart{
+            width: 70px;
+            height: 20px;
+            border: none;
+            font-size: 9px;
+            font-weight: 400;
+            border-radius: 20px;
+            cursor: pointer;
+            
+        }
+
+     
+.Computation-container{
+    width: 80%;
+    display: flex;
+    font-family: poppins;
+    gap: 30px;
+}        
+    .Totals-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+    }
+    .Totals-container h1{
+        font-size: 25px;
+    }
+    .Totals-container hr{
+        height: 1px;
+        width: 300px;
+    }
+    .subtotal{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-family: poppins;
+        font-weight: 500;
+    }
+    .shipping-fee{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+    }
+    .Total{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    #checkout-button{
+        width: 150px;
+        height: 30px;
+        font-size: 10px;
+        font-weight: 500px;
+        font-family: poppins;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .Promo-container{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Promo-container button{
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .Promo-container input{
+        border: none;
+        outline: none;
+        font-size: 13px;
+        width: 200px;
+        height: 30px;
+        padding-left: 10px;
+    }
+}    
+@media(max-width:786px){
+    .Cart-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.cartitems-format-main{
+    margin-top: 100px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: solid 2px;
+}
+
+    .CartItems-container{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        gap: 80px;
+        padding: 0px 0px;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: poppins;
+        border-bottom: solid 1px;
+    }
+        .CartItems-container img{
+            width: 35px;
+        }
+        #Remove-cart{
+            width: 60px;
+            height: 18px;
+            font-size: 9px;
+            font-weight: 300;
+            border-radius: 20px;
+        }
+
+     
+.Computation-container{
+    width: 80%;
+    gap: 30px;
+}        
+    .Totals-container{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+    }
+    .Totals-container h1{
+        font-size: 20px;
+    }
+    .Totals-container hr{
+        height: 1px;
+        width: 250px;
+    }
+    .subtotal{
+        display: flex;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .shipping-fee{
+        display: flex;
+        font-size: 10px;
+    }
+    .Total{
+        display: flex;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #checkout-button{
+        width: 120px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: 300;
+        font-family: poppins;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .Promo-container{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Promo-container button{
+        width: 80px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .Promo-container input{
+        border: none;
+        outline: none;
+        font-size: 13px;
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
+}    
+@media (max-width: 480px) {
+
+
+   .Cart-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.cartitems-format-main{
+    display: none;
+}
+
+    .CartItems-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 40px 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 15px;
+    padding: 10px 0;
+    font-size: 10px;
+    font-weight: 400;
+    font-family: poppins;
+    border-bottom: 1px solid #ccc;
+}
+
+        .CartItems-container img{
+            width: 35px;
+        }
+        #Remove-cart{
+            width: 60px;
+            height: 18px;
+            font-size: 9px;
+            font-weight: 300;
+            border-radius: 20px;
+        }
+
+     
+.Computation-container{
+
+    width: 90%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+}        
+    .Totals-container{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: 250px;
+        padding: 20px;
+    }
+    .Totals-container h1{
+        font-size: 20px;
+    }
+    .Totals-container hr{
+        height: 1px;
+        width: 250px;
+    }
+    .subtotal{
+        display: flex;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .shipping-fee{
+        display: flex;
+        font-size: 10px;
+    }
+    .Total{
+        display: flex;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    #checkout-button{
+        width: 120px;
+        height: 30px;
+        font-size: 9px;
+        font-weight: 300;
+        font-family: poppins;
+        border: none;
+        border-radius: 1px;
+    }
+
+    .Promo-container{
+        width: 300px;
+        height: 100px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+    }
+    .Promo-container button{
+        width: 80px;
+        height: 30px;
+        font-size: 11px;
+    }
+    .Promo-container input{
+        border: none;
+        outline: none;
+        font-size: 13px;
+        width: 150px;
+        height: 30px;
+        padding-left: 10px;
+    }
+}
+ 

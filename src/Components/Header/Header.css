@@ -1,0 +1,132 @@
+.Header-Main{
+    width: auto;
+    height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+    .Logoname-Container{
+    display: flex;
+    flex-direction: column; 
+    }
+    .Logoname-Container span{
+        display: inline-block;
+        font-family: 'Michroma';
+        font-size: 12px;
+        margin: 0;
+        color: aliceblue;
+        font-weight: 500;
+    }
+
+    .Header-Main h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 25px;
+    }
+
+    .Header-Main nav{
+        font-family: poppins;
+        background: transparent;
+        
+    }
+
+    .Header-Main nav a{
+        font-weight: 600;
+    }
+
+    .Header-Buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }    
+    #Login-Header{
+        width: 100px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;
+        cursor: pointer;
+        transition: 
+            background-color 0.3s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+            
+    }
+        #Login-Header:hover{
+            background-color: #20d63ed3;
+            color: rgb(250, 255, 245);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+    #SignUp-Header{
+        width: 100px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;
+        background-color: brown;
+        color: aliceblue;
+        cursor: pointer;
+        transition: 
+            background-color 0.3s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+        #SignUp-Header:hover{
+            background-color: #15afcad3;
+            color: rgb(250, 255, 245);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+        #LogOut-Button{
+        width: 100px;
+        height: 25px;
+        background-color: #790e0e;
+        color: rgb(238, 230, 230);
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        margin-right: 5px;
+        overflow: hidden;
+        transition: 
+            background-color 0.3s ease,
+            transform 0.2s ease,
+            box-shadow 0.2s ease;
+    }
+    .auth-wrapper {
+    position: relative;
+    }
+
+    .auth-buttons{
+        display: flex;
+        gap: 20px;
+    }
+
+    .Header-Buttons img{
+        width: 35px;
+        margin-left: 10px;
+    }
+    .CartCount{
+        width: 15px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+        margin-left: -20px;
+        border-radius: 11px;
+        font-size: 10px;
+        background-color: rgb(252, 252, 252);
+        color: #070707;
+        font-weight: 600;
+    }
+    

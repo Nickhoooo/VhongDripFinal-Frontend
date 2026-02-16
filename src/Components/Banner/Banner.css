@@ -1,0 +1,30 @@
+.Banner-Main{
+    width: auto;
+    height: 310px;
+    background-color: rgb(128, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .Banner-Left img{
+       width: 300px; 
+       padding-top: 20px;
+    }
+    .Banner-Right{
+        width: 700px;
+    }
+    .Banner-Right h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 40px;
+    }
+    .Banner-Right p{
+        color: white;
+    }
+    .Banner-Right button{
+        width: 100px;
+        height: 25px;
+        border: none;
+        border-radius: 20px;
+        font-size: 10px;
+    }

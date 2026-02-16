@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../.github"
+		}
+		{
+			"path": "../Frontend"
+		},
+		{
+			"path": "../../../../../../xampp/htdocs/Backend"
+		}
+	],
+	"settings": {}
+}

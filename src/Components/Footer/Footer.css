@@ -1,0 +1,281 @@
+.Footer-container{
+    width: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: poppins;
+}
+    .Footer-container hr{
+        width: 700px;
+        height: 2px;
+        background-color: black;
+
+    }
+    .Company-Name{
+        display: flex;
+        justify-content: center;
+            align-items: center;
+    }
+        .Company-Name{
+            font-family: poppins;
+            font-size: 30px;
+        }
+        .Company-Name img{
+            width: 100px;
+            margin-right: 20px;
+        }
+    .About-us{
+        display: flex;
+        font-size: 15px;
+        color: black;
+        font-weight: 300px;
+        margin-top: 20px;
+    }
+        .Navbar{
+            font-weight: 400;
+            display: flex;
+            gap: 70px;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+        }
+        .Navbar a {
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: 400;
+            transition: color 0.3s ease;
+            font-family: poppins;
+        }
+        .Navbar a:hover {
+            color: rgb(185, 30, 30);
+        }
+      
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .SocialMedia img {
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    .SocialMedia img:hover {
+        transform: scale(1.1);
+    }
+    
+    .Owner{
+        font-family: poppins;
+
+    }
+        #Copyright{
+            text-align: center;
+            margin: 0;
+            font-size: 10px;
+            font-family: poppins;
+        }
+        #DesignBy{
+            text-align: center;
+            margin: 0;
+            font-size: 10px;
+            font-family: poppins;
+        }
+
+
+@media(max-width:1024px){
+
+    .Footer-container{
+    width: auto;
+    height: 400px;
+    gap: 10px;
+    font-family: poppins;
+}
+    .Footer-container hr{
+        width: 600px;
+        height: 2px;
+    }
+        .Company-Name{
+            font-size: 25px;
+        }
+        .Company-Name img{
+            height: 70px;
+            width: 70px;
+            margin-right: 20px;
+        }
+    .About-us{
+        font-size: 15px;
+        font-weight: 300px;
+        margin-top: 20px;
+    }
+        .Navbar{
+            font-weight: 400px;
+            gap: 50px;
+        }
+        .Navbar a {
+            font-size: 18px;
+            font-weight: 400px;
+        }
+      
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    .SocialMedia img {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .Owner{
+        font-family: poppins;
+
+    }
+        #Copyright{
+            text-align: center;
+            margin: 0;
+            font-size: 9px;
+            font-family: poppins;
+        }
+        #DesignBy{
+            text-align: center;
+            margin: 0;
+            font-size: 9px;
+            font-family: poppins;
+        }
+
+}    
+@media(max-width:768px){
+    .Footer-container{
+    width: auto;
+    height: 400px;
+    gap: 10px;
+    font-family: poppins;
+}
+    .Footer-container hr{
+        width: 500px;
+        height: 2px;
+    }
+        .Company-Name{
+            font-size: 20px;
+        }
+        .Company-Name img{
+            height: 60px;
+            width: 60px;
+            margin-right: 20px;
+        }
+    .About-us{
+        font-weight: 300px;
+        margin-top: 0px;
+    }
+        .Navbar{
+            font-weight: 400px;
+            gap: 50px;
+        }
+        .Navbar a {
+            font-size: 15px;
+            font-weight: 400px;
+        }
+      
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    .SocialMedia img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .Owner{
+        font-family: poppins;
+
+    }
+        #Copyright{
+            text-align: center;
+            margin: 0;
+            font-size: 9px;
+            font-family: poppins;
+        }
+        #DesignBy{
+            text-align: center;
+            margin: 0;
+            font-size: 9px;
+            font-family: poppins;
+        }
+}
+@media(max-width:480px){
+    .Footer-container{
+    width: auto;
+    height: 300px;
+    gap: 10px;
+    font-family: poppins;
+}
+    .Footer-container hr{
+        width: 340px;
+        height: 1px;
+    }
+        .Company-Name{
+            font-size: 16px;
+        }
+        .Company-Name img{
+            height: 45px;
+            width: 45px;
+            margin-right: 20px;
+        }
+    .About-us{
+        font-weight: 300px;
+        margin-top: 0px;
+    }
+        .Navbar{
+            font-weight: 400px;
+            gap: 40px;
+        }
+        .Navbar a {
+            font-size: 12px;
+            font-weight: 400px;
+        }
+      
+    .SocialMedia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    .SocialMedia img {
+        width: 15px;
+        height: 15px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+    
+    .Owner{
+        font-family: poppins;
+
+    }
+        #Copyright{
+            text-align: center;
+            margin: 0;
+            font-size: 8px;
+            font-family: poppins;
+        }
+        #DesignBy{
+            text-align: center;
+            margin: 0;
+            font-size: 8px;
+            font-family: poppins;
+        }
+}
+  

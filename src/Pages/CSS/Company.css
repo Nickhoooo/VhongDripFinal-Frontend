@@ -1,0 +1,1017 @@
+.Company-Main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+    #Bold{
+        font-family: poppins;
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 250px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+.Info-container{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 50px;
+}
+    .Left-logo{
+        height: 300px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Left-logo img{
+        width: 250px;
+        object-fit: cover;
+        
+    }
+    
+    .right-info{
+        height: 300px;
+        width: 800px;
+        padding: 5px;
+        font-family: poppins;
+        font-size: 15px;
+    }
+    .right-info h1{
+
+    }
+
+    /* CONTAINER */
+.Fiveimage_container {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; /* important for different heights */
+    gap: 10px;
+    font-size: poppins;
+    border-bottom: 2px solid black;
+}
+    
+/* From Uiverse.io by ElSombrero2 */ 
+.card {
+  overflow: visible;
+  width: 190px;
+  height: 254px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+
+.front, .back {
+  background-color: #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.back::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 160px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #e70e0e, #aa2020, #962b2b, #ff0404, transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+
+.back-content {
+  position: absolute;
+  width: 98%;
+  height: 99%;
+  background-color: #151515;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 13px;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+}
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.front {
+  transform: rotateY(180deg);
+  color: white;
+}
+
+.front .front-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.front-content .badge {
+  background-color: #00000055;
+  padding: 2px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  width: fit-content;
+}
+
+.description {
+  box-shadow: 0px 0px 10px 5px #00000088;
+  width: 100%;
+  padding: 10px;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 15px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 20px;
+  font-family: poppins;
+}
+
+.title p {
+  width: 100%;
+}
+
+.card-footer {
+  color: #ffffff88;
+  margin-top: 5px;
+  font-size: 8px;
+}
+
+.front .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #ffbb66;
+  position: relative;
+  filter: blur(15px);
+  animation: floating 2600ms infinite linear;
+}
+
+#bottom {
+  background-color: #ff8866;
+  left: 50px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  animation-delay: -800ms;
+}
+
+#right {
+  background-color: #ff2233;
+  left: 160px;
+  top: -80px;
+  width: 30px;
+  height: 30px;
+  animation-delay: -1800ms;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+
+.Team-Comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    flex-direction: column;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+}
+.Team-Comtainer h1{
+
+}
+
+.Team-Comtainer p{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+@media(max-width: 1024px){
+  .Company-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+    #Bold{
+        font-family: poppins;
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 250px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+.Info-container{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 10px;
+}
+    .Left-logo{
+        height: 300px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Left-logo img{
+        width: 180px;
+        object-fit: cover;
+        
+    }
+    
+    .right-info{
+        height: 200px;
+        width: 800px;
+        padding: 5px;
+        font-family: poppins;
+        font-size: 14px;
+    }
+    .right-info h1{
+      font-size: 25px;
+    }
+
+    .Team-Comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: poppins;
+    flex-direction: column;
+    width: auto;
+    height: 0px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 50px;
+  }
+  .Team-Comtainer h1{
+    font-size: 25px;
+  }
+
+  .Team-Comtainer p{
+    font-size: 15px;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+    /* CONTAINER */
+.Fiveimage_container {
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* important for different heights */
+    gap: 10px;
+    font-size: poppins;
+    border-bottom: 2px solid black;
+}
+    
+
+.card {
+  overflow: visible;
+  width: 190px;
+  height: 240px;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 300ms;
+  box-shadow: 0px 0px 10px 1px #000000ee;
+  border-radius: 5px;
+}
+
+.front, .back {
+  background-color: #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.back::before {
+  position: absolute;
+  content: ' ';
+  display: block;
+  width: 160px;
+  height: 160%;
+  background: linear-gradient(90deg, transparent, #e70e0e, #aa2020, #962b2b, #ff0404, transparent);
+  animation: rotation_481 5000ms infinite linear;
+}
+
+.back-content {
+  position: absolute;
+  width: 98%;
+  height: 99%;
+  background-color: #151515;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+}
+
+@keyframes rotation_481 {
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  0% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.front {
+  transform: rotateY(180deg);
+  color: white;
+}
+
+.front .front-content {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.front-content .badge {
+  background-color: #00000055;
+  padding: 2px 10px;
+  border-radius: 10px;
+  backdrop-filter: blur(2px);
+  width: fit-content;
+}
+
+.description {
+  box-shadow: 0px 0px 10px 5px #00000088;
+  width: 100%;
+  padding: 10px;
+  background-color: #00000099;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 15px;
+  max-width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 20px;
+  font-family: poppins;
+}
+
+.title p {
+  width: 100%;
+}
+
+.card-footer {
+  color: #ffffff88;
+  margin-top: 5px;
+  font-size: 8px;
+}
+
+.front .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #ffbb66;
+  position: relative;
+  filter: blur(15px);
+  animation: floating 2600ms infinite linear;
+}
+
+#bottom {
+  background-color: #ff8866;
+  left: 50px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+  animation-delay: -800ms;
+}
+
+#right {
+  background-color: #ff2233;
+  left: 160px;
+  top: -80px;
+  width: 30px;
+  height: 30px;
+  animation-delay: -1800ms;
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+}
+
+@media (max-width:780px) {
+   .Company-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+    #Bold{
+        font-family: poppins;
+        font-size: 70px;
+        font-weight: 500;
+        margin: 0;
+        padding-left: 250px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+.Info-container{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 10px;
+}
+    .Left-logo{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Left-logo img{
+        width: 130px;
+        object-fit: cover;
+        
+    }
+    
+    .right-info{
+        height: 200px;
+        width: 400px;
+        padding: 5px;
+        font-family: poppins;
+        font-size: 12px;
+    }
+    .right-info h1{
+      font-size: 20px;
+    }
+
+    .Team-Comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 0px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+
+  }
+  .Team-Comtainer h1{
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .Team-Comtainer p{
+    font-size: 12px;
+      margin-left: 20%;
+      margin-right: 20%;
+  }
+
+    /* CONTAINER */
+.Fiveimage_container {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 90%;
+    height: 300px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* important for different heights */
+    gap: 10px;
+    font-size: poppins;
+}
+    
+
+.card {
+  overflow: visible;
+  width: 140px;
+  height: 200px;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.front, .back {
+  background-color: #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.back::before {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 160%;
+}
+
+.back-content {
+  position: absolute;
+  width: 98%;
+  height: 99%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 8px;
+ 
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+}
+
+.front .front-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 150px;
+  font-family: poppins;
+}
+
+.title p {
+  width: 100%;
+}
+
+.card-footer {
+  margin-top: 5px;
+  font-size: 8px;
+}
+
+.front .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+#bottom {
+  left: 50px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+#right {
+  left: 160px;
+  top: -80px;
+  width: 30px;
+  height: 30px;
+}
+
+}
+
+
+@media (max-width:480px) {
+  .Company-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+    #Bold{
+        font-family: poppins;
+        font-size: 70px;
+        font-weight: 500;
+        margin: 70;
+        padding-left: 250px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+.Info-container{
+    height: 400px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 0px;
+}
+    .Left-logo{
+        height: 200px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Left-logo img{
+        width: 110px;
+        object-fit: cover;
+        
+    }
+    
+    .right-info{
+        height: 300px;
+        width: 300px;
+        padding: 5px;
+        font-family: poppins;
+        font-size: 10px;
+        margin-top: 0px;
+    }
+    .right-info h1{
+      font-size: 15px;
+    }
+
+    .Team-Comtainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 0px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+
+  }
+  .Team-Comtainer h1{
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .Team-Comtainer p{
+    font-size: 10px;
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
+    /* CONTAINER */
+.Fiveimage_container {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: auto;
+    height: 800px;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center; /* important for different heights */
+    gap: 0px;
+    font-size: poppins;
+}
+    
+
+.card {
+  overflow: visible;
+  width: 140px;
+  height: 200px;
+}
+
+.content {
+  width: 90%;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.front, .back {
+  background-color: #151515;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.back {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  font-family: poppins;
+}
+
+.back::before {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 160%;
+}
+
+.back-content {
+  position: absolute;
+  width: 98%;
+  height: 99%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  font-size: 8px;
+ 
+}
+
+.card:hover .content {
+  transform: rotateY(180deg);
+}
+
+.front .front-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 150px;
+  font-family: poppins;
+}
+
+.title p {
+  width: 100%;
+}
+
+.card-footer {
+  margin-top: 5px;
+  font-size: 8px;
+}
+
+.front .img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+#bottom {
+  left: 50px;
+  top: 0px;
+  width: 150px;
+  height: 150px;
+}
+
+#right {
+  left: 160px;
+  top: -80px;
+  width: 30px;
+  height: 30px;
+} 
+}

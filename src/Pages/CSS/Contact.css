@@ -1,0 +1,362 @@
+.Contact-Main {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    background-position: center 40%;
+    gap: 300px;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+   
+}
+    .Text p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+
+#ContactForm{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #tittle{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 300;
+        margin-top: 50px;
+    }
+    #Conname{
+        font-family: poppins;
+        width: 250px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+    }
+    #Conemail{
+        font-family: poppins;
+        width: 250px;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+    }
+    #Message{
+        font-family: poppins;
+        width: 250px;
+        height: 80px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+    }
+    #Button{
+        width: 250px;
+        height: 30px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(51, 64, 82);
+        border: none;
+        margin-top: 10px;
+        cursor: pointer;
+        transition: 
+        background-color 0.3s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+    #Button:hover{
+        background-color: #1b6828d3;
+        color: rgb(250, 255, 245);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+    }
+
+@media(max-width:1024px){
+    .Contact-Main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company{
+    width: auto;
+    height: 600px;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    background-position: center 40%;
+    gap: 170px;
+}
+
+.Text{
+    display: flex;
+    flex-direction: column;
+}
+    #Bold{
+        font-size: 40px;
+    }
+    .Text p{
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+
+#ContactForm{
+    width: 320px;
+    height: 380px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #tittle{
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    #Conname{
+        font-family: poppins;
+        width: 240px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    #Conemail{
+        font-family: poppins;
+        width: 240px;
+        height: 30px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    #Message{
+        font-family: poppins;
+        width: 240px;
+        height: 80px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 13px;
+    }
+    #Button{
+        width: 250px;
+        height: 30px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(51, 64, 82);
+        border: none;
+        margin-top: 10px;
+    }
+
+}    
+@media(max-width:780px){
+     .Contact-Main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company{
+    width: auto;
+    height: 600px;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center 40%;
+    gap: 170px;
+}
+
+.Text{
+    display: none;
+    flex-direction: column;
+}
+    #Bold{
+        font-size: 40px;
+    }
+    .Text p{
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+
+#ContactForm{
+    align-self: center;
+    width: 300px;
+    height: 370px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    #tittle{
+        font-family: poppins;
+        font-size: 25px;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    #Conname{
+        font-family: poppins;
+        width: 230px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 11px;
+    }
+    #Conemail{
+        font-family: poppins;
+        width: 230px;
+        height: 25px;
+        border-radius: 20px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 11px;
+    }
+    #Message{
+        font-family: poppins;
+        width: 230px;
+        height: 70px;
+        border-radius: 10px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 11px;
+    }
+    #Button{
+        width: 240px;
+        height: 25px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(51, 64, 82);
+        border: none;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}  
+@media(max-width:480px){
+     .Contact-Main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Company{
+    width: auto;
+    height: 600px;
+    background-size: cover;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center 40%;
+    gap: 170px;
+}
+
+#ContactForm{
+    align-self: center;
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+    #tittle{
+        font-family: poppins;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 30px;
+    }
+    #Conname{
+        font-family: poppins;
+        width: 170px;
+        height: 20px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #Conemail{
+        font-family: poppins;
+        width: 170px;
+        height: 20px;
+        border-radius: 20px;
+        margin-top: 10px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    #Message{
+        font-family: poppins;
+        width: 170px;
+        height: 70px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: none;
+        background-color: rgb(219, 214, 214);
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    #Button{
+        width: 170px;
+        height: 25px;
+        border-radius: 30px;
+        color: white;
+        background-color: rgb(51, 64, 82);
+        border: none;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+}  
+ 

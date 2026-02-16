@@ -1,0 +1,477 @@
+.About-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 700px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+ #Bold{
+        font-family: poppins;
+        font-size: 70px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 250px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 260px;
+    }
+
+    .Story-Main{
+        width: auto;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Story-child{
+        width: 900px;
+        height: 250px;
+        display: flex;
+        background-color: #2F3943;
+        border-radius: 30px;
+        padding-left: 50px;
+        align-items: center;
+        gap: 20px;
+    }
+    .Circle-white{
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .Story-Info{
+        width: 600px;
+    }
+    .Story-Info h1{
+        margin: 0;
+        font-family: poppins;
+        color: white;
+
+    }
+    .Story-Info p{
+        font-family: poppins;
+        margin: 0;
+        color: white;
+        font-size: 12px;
+    }
+
+    .GoalContent{
+        width: auto;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Goal-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Goal-Info{
+        width: 500px;
+        height: 300px;
+    }
+    .Goal-Container p{
+        font-family: poppins;
+        font-size: 12px;
+        margin: 0;
+       
+    }
+    .Goal-Container h1{
+        font-family: poppins;
+    }
+
+    .Circle-Container{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+    .Circle-Container img{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+
+    
+@media(max-width:1024px){
+    .About-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 600px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+ #Bold{
+        font-family: poppins;
+        font-size: 60px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+    .Story-Main{
+        width: auto;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Story-child{
+        width: 850px;
+        height: 200px;
+        display: flex;
+        background-color: #2F3943;
+        border-radius: 30px;
+        padding-left: 50px;
+        align-items: center;
+        gap: 20px;
+    }
+    .Circle-white{
+        height: 130px;
+        width: 130px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .Story-Info{
+        width: 600px;
+    }
+    .Story-Info h1{
+        margin: 0;
+        font-family: poppins;
+        color: white;
+        font-size:20px;
+
+    }
+    .Story-Info p{
+        font-family: poppins;
+        margin: 0;
+        color: white;
+        font-size: 11px;
+    }
+
+    .GoalContent{
+        width: auto;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .Goal-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .Goal-Info{
+        width: 450px;
+        height: 300px;
+    }
+    .Goal-Container p{
+        font-family: poppins;
+        font-size: 12px;
+        margin: 0;
+       
+    }
+    .Goal-Container h1{
+        font-family: poppins;
+    }
+
+    .Circle-Container{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+    .Circle-Container img{
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+}    
+@media(max-width:786px){
+    .About-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 500px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+ #Bold{
+        font-family: poppins;
+        font-size: 45px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 13px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+    .Story-Main{
+        width: auto;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .Story-child{
+        width: 600px;
+        height: 170px;
+        display: flex;
+        background-color: #2F3943;
+        border-radius: 30px;
+        padding-left: 50px;
+        align-items: center;
+        gap: 20px;
+    }
+    .Circle-white{
+        height: 100px;
+        width: 120px;
+        background-color: white;
+        border-radius: 100%;
+    }
+    .Story-Info{
+        width: 600px;
+    }
+    .Story-Info h1{
+        margin: 0;
+        font-family: poppins;
+        color: white;
+        font-size:20px;
+
+    }
+    .Story-Info p{
+        font-family: poppins;
+        margin: 0;
+        color: white;
+        font-size: 11px;
+    }
+
+    .GoalContent{
+        width: auto;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
+    .Goal-Container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .Goal-Info{
+        width: 550px;
+        height: 350px;
+    }
+    .Goal-Container p{
+        font-family: poppins;
+        font-size: 11px;
+        margin: 0;
+       
+    }
+    .Goal-Container h1{
+        font-family: poppins;
+        font-size: 25px;
+    }
+
+    .Circle-Container{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+    }
+    .Circle-Container img{
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+}    
+
+@media(max-width:480px){
+    .About-Main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Cover-Company{
+    width: auto;
+    height: 450px;
+    background-size: cover;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position: center 40%;
+   
+}
+ #Bold{
+        font-family: poppins;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    .Cover-Company p{
+        font-family: poppins;
+        font-size: 11px;
+        font-weight: 400;
+        color: white;
+        margin: 0;
+        padding-left: 50px;
+    }
+
+    .Story-Main{
+        width: auto;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+
+    .Story-child{
+        width: 380px;
+        height: 180px;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #2F3943;
+        border-radius: 30px;
+        align-items: center;
+        padding: 0px;
+        padding: 10px;
+    }
+    .Circle-white{
+        height: 30px;
+        width: 120px;
+        background-color: white;
+        border-radius: 50px;
+
+    }
+    .Story-Info{
+        width: 350px;
+    }
+    .Story-Info h1{
+        margin: 0;
+        font-family: poppins;
+        color: white;
+        font-size:20px;
+
+    }
+    .Story-Info p{
+        font-family: poppins;
+        margin: 0;
+        color: white;
+        font-size: 11px;
+    }
+
+    .GoalContent{
+        width: auto;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        
+    }
+    .Goal-Container{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .Goal-Info{
+        width: 350px;
+        height: 350px;
+    }
+    .Goal-Container p{
+        font-family: poppins;
+        font-size: 10px;
+        margin: 0;
+       
+    }
+    .Goal-Container h1{
+        font-family: poppins;
+        font-size: 20px;
+    }
+
+    .Circle-Container{
+        width: 190px;
+        height: 190px;
+        border-radius: 100%;
+    }
+    .Circle-Container img{
+        width: 190px;
+        height: 190px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+}    

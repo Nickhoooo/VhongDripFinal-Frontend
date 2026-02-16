@@ -1,0 +1,173 @@
+.Main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+    .Category{
+        width: 550px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: rgb(66, 65, 65);
+        display: flex;
+        margin-left: 17%;
+        align-items: center;
+    }
+        .Category select{
+            width: 150px;
+            height: 25px;
+            font-family: poppins;
+            color: black;
+            border-radius: 30px;
+            text-align: center;
+            border: none;
+            margin-left: 15px; 
+        }
+        .right-category p{
+            color: aliceblue;
+            font-size: 15px;
+            font-family: poppins;
+            font-weight: 200px;
+            margin-left: 35px;
+        }
+        
+    .Allproducts{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 90px;
+        gap: 50px;
+        align-self: center;
+    }
+
+@media(max-width:1024px){
+
+    .Main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .Category{
+        width: 450px;
+        height: 40px;
+        border-radius: 50px;
+        background-color: rgb(66, 65, 65);
+        display: flex;
+        margin-left: 13%;
+        align-items: center;
+    }
+        .Category select{
+            width: 120px;
+            height: 20px;
+            font-family: poppins;
+            color: black;
+            border-radius: 30px;
+            text-align: center;
+            border: none;
+            margin-left: 15px; 
+        }
+        .right-category p{
+            color: aliceblue;
+            font-size: 12px;
+            font-family: poppins;
+            font-weight: 200px;
+            margin-left: 35px;
+        }
+        
+    .Allproducts{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 90px;
+        gap: 50px;
+        align-self: center;
+    }
+
+}   
+@media(max-width:786px){
+    .Main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .Category{
+        width: 440px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        margin-left: 9%;
+        align-items: center;
+    }
+        .Category select{
+            width: 110px;
+            height: 20px;
+            font-family: poppins;
+            color: black;
+            border-radius: 30px;
+            text-align: center;
+            border: none;
+            margin-left: 15px; 
+            font-size: 10px;
+        }
+        .right-category p{
+            color: aliceblue;
+            font-size: 12px;
+            font-family: poppins;
+            font-weight: 200px;
+            margin-left: 30px;
+        }
+        
+    .Allproducts{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 90px;
+        gap: 50px;
+        align-self: center;
+    }
+}    
+@media(max-width:480px){
+
+    .Main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .Category{
+        width: 340px;
+        height: 30px;
+        border-radius: 50px;
+        display: flex;
+        margin-left: 6%;
+        align-items: center;
+    }
+        .Category select{
+            width: 100px;
+            height: 15px;
+            font-family: poppins;
+            color: black;
+            border-radius: 30px;
+            text-align: center;
+            border: none;
+            margin-left: 15px; 
+            font-size: 9px;
+        }
+        .right-category p{
+            color: aliceblue;
+            font-size: 9px;
+            font-family: poppins;
+            font-weight: 200px;
+            margin-left: 20px;
+        }
+        
+    .Allproducts{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 90px;
+        gap: 20px;
+        align-self: center;
+    }
+   
+}    
+
