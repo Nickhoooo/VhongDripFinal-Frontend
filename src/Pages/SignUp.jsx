@@ -72,6 +72,7 @@ function SignUp(){
     const form = new URLSearchParams(formData).toString();
     const res = await fetch("http://localhost/backend/public/register", {
     method: "POST",
+    credentials: "include", 
     headers: { "Content-Type": "application/x-www-form-urlencoded" },
     body: form
     })

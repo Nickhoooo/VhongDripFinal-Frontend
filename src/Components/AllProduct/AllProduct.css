@@ -81,4 +81,207 @@
         transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
       
+    }             
+    
+@media(max-width: 1024px){
+.Allproduct-Main{
+    display: flex;
+    flex-direction: column;
+    height: 360px;
+    width:  200px;
+    border-radius: 30px;
+    background-color: rgb(230, 226, 226);
+}
+.Product-Container{
+
+}
+    .Product-Container img{
+        height: 250px;
+        width: 200px;
+        border-radius: 30px;
+        object-fit: cover;
     }
+#Product-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #Product-child h3{
+        margin: 0px;
+        margin-top: 20px;
+        font-size: 15px;
+    }
+    #Product-child p{
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 13px;
+
+    }
+
+
+.Buttons-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}   
+    #Buy-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(170, 47, 47);
+        width: 80px;
+        height: 25px;
+        color: aliceblue;
+        font-size: 8px;
+        cursor: pointer;
+
+    }
+
+    #Add-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(7, 6, 6);
+        width: 85px;
+        height: 25px;
+        color: aliceblue;
+        font-size: 8px;
+
+    }  
+
+    }
+
+    
+@media(max-width: 768px){
+    .Allproduct-Main{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width:  200px;
+    border-radius: 30px;
+    background-color: rgb(230, 226, 226);
+}
+.HotProduct-Child{
+    width: 200px;
+    height: 300px;
+}
+    .Product-Container img{
+        height: 250px;
+        width: 200px;
+        border-radius: 30px;
+        object-fit: cover;
+    
+    }
+#Product-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #Product-child h3{
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 16px;
+    }
+    #Product-child p{
+        margin: 0px;
+        margin-top: 10px;
+
+    }
+
+
+.Buttons-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}   
+    #Buy-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(170, 47, 47);
+        width: 85px;
+        height: 23px;
+        color: aliceblue;
+        font-size: 9px;
+        cursor: pointer;
+    }
+
+    
+    #Add-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(7, 6, 6);
+        width: 85px;
+        height: 23px;
+        color: aliceblue;
+        font-size: 9px;
+    }
+}    
+
+@media(max-width: 425px){
+    .Allproduct-Main{
+    display: flex;
+    flex-direction: column;
+    height: 340px;
+    width:  180px;
+    border-radius: 30px;
+    background-color: rgb(230, 226, 226);
+}
+.HotProduct-Child{
+    width: 170px;
+    height: 330px;
+}
+    .Product-Container img{
+        width: 180px;
+    
+    }
+#Product-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    #Product-child h3{
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    #Product-child p{
+        margin: 0px;
+        margin-top: 10px;
+
+    }
+
+
+.Buttons-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 5px;
+}   
+    #Buy-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(170, 47, 47);
+        width: 80px;
+        height: 22px;
+        color: aliceblue;
+        font-size: 8px;
+        cursor: pointer;
+    }
+
+    
+    #Add-Product{
+        border: none;
+        border-radius: 20px;
+        background-color: rgb(7, 6, 6);
+        width: 80px;
+        height: 22px;
+        color: aliceblue;
+        font-size: 8px;
+    }
+}    

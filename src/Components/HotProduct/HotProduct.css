@@ -25,3 +25,100 @@
     align-items: center;
     gap: 50px;
 }
+
+@media(max-width: 1024px){
+    .HotProduct-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 600px;
+}
+
+    .HotProduct-Main h1{
+        font-size: 30px;
+        font-family: poppins;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    .HotProduct-Main hr{
+        width: 300px;
+        height: 1px;
+        background-color: black;
+        margin: 0px;
+    }
+.HotProduct-Display{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+}
+@media(max-width: 768px){
+    .HotProduct-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 1000px;
+}
+
+    .HotProduct-Main h1{
+        font-size: 30px;
+        font-family: poppins;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    .HotProduct-Main hr{
+        width: 300px;
+        height: 1px;
+        background-color: black;
+        margin: 0px;
+    }
+.HotProduct-Display{
+    display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        margin-top: 60px;
+        width: auto;
+        height: 300px;
+}
+}
+
+@media(max-width: 425px){
+    .HotProduct-Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: 880px;
+}
+
+    .HotProduct-Main h1{
+        font-size: 25px;
+        font-family: poppins;
+        margin: 0px;
+        margin-top: 50px;
+    }
+    .HotProduct-Main hr{
+        width: 300px;
+        height: 1px;
+        background-color: black;
+        margin: 0px;
+    }
+.HotProduct-Display{
+    display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-top: 60px;
+        width: auto;
+        height: 300px;
+}
+}

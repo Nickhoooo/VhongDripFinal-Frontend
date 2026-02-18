@@ -3,8 +3,8 @@
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 600px;
-    background: linear-gradient(to right, #121520, #32405F, #D8525E);
+    height: 500px;
+    background: linear-gradient(to right, #201f1f, #969392, #fdfdfd);
     gap: 30px;
 
 }
@@ -27,8 +27,11 @@
     .Hero-Left p{
         color: white;
         font-family: 'Michroma';
-        font-weight: 900;
-        margin-bottom: 30px;
+        font-weight: 100;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 5px;
+
     }
     #ShopNow-Landing{
         margin-top: 10px;
@@ -46,7 +49,7 @@
         box-shadow 0.2s ease;
     }
     #ShopNow-Landing:hover{
-       background-color: #d62020d3;
+       background-color: #131212d3;
         color: rgb(250, 255, 245);
         transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
@@ -58,7 +61,7 @@
         border: none;
         border-radius: 20px;
         color: white;
-        background-color: #000000;
+       background-color: #b11111;
         margin-left: 20px;
         font-size: 10px;
          transition: 
@@ -68,8 +71,8 @@
         cursor: pointer;
     }
     #ExploreNow-Landing:hover{
-         background-color: #1512b1d3;
-        color: rgb(250, 255, 245);
+         background-color: #121213d3;
+        color: rgb(233, 233, 230);
         transform: translateY(-2px);
         box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
     }
@@ -88,13 +91,13 @@
     width: 400px;
 }
 
-@media(max-width: 1034px){
+@media(max-width: 1024px){
 .Hero-Main{
     display: flex;
     justify-content: center;
     align-items: center;
     width: auto;
-    height: 600px;
+    height: 500px;
     background: linear-gradient(to right, #121520, #32405F, #D8525E);
     gap: 30px;
 
@@ -106,64 +109,56 @@
     display: block;
     justify-content: center;
     align-items: center;
+    margin-left: 50px;
 }
 
     .Hero-Left h1{
-        margin-top: 190px;
+        margin-top: 150px;
         font-family: 'Michroma';
         color: white;
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 9000;
     }
     .Hero-Left p{
         color: white;
         font-family: 'Michroma';
         font-weight: 900;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+        font-size: 15px;
     }
     #ShopNow-Landing{
         margin-top: 10px;
-        width: 120px;
-        height: 30px;
+        width: 100px;
+        height: 25px;
         background-color: #cccaca;
         color: rgb(18, 18, 19);
         border-radius: 20px;
         border: none;
         cursor: pointer;
-        font-size: 10px;
+        font-size: 9px;
         transition: 
         background-color 0.3s ease,
         transform 0.2s ease,
         box-shadow 0.2s ease;
     }
-    #ShopNow-Landing:hover{
-       background-color: #d62020d3;
-        color: rgb(250, 255, 245);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-    }
+
 
     #ExploreNow-Landing{
-        width: 200px;
-        height: 30px;
+        width: 180px;
+        height: 25px;
         border: none;
         border-radius: 20px;
         color: white;
-        background-color: #000000;
+        background-color: #a73333;
         margin-left: 20px;
-        font-size: 10px;
+        font-size: 9px;
          transition: 
         background-color 0.3s ease,
         transform 0.2s ease,
         box-shadow 0.2s ease;
         cursor: pointer;
     }
-    #ExploreNow-Landing:hover{
-         background-color: #1512b1d3;
-        color: rgb(250, 255, 245);
-        transform: translateY(-2px);
-        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
-    }
+ 
         
 
 
@@ -176,15 +171,216 @@
 }
 
 .Hero-Right img{
-    width: 400px;
+    width: 350px;
 }    
 }
 @media(max-width: 900px){
 
+    .Hero-Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 560px;
+    gap: 30px;
+
+}
+
+.Hero-Left{
+    width: 400px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+    .Hero-Left h1{
+        margin-top: 150px;
+        font-family: 'Michroma';
+        color: white;
+        font-size: 30px;
+        font-weight: 9000;
+    }
+    .Hero-Left p{
+        color: white;
+        font-family: 'Michroma';
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    #ShopNow-Landing{
+        margin-top: 10px;
+        width: 90px;
+        height: 23px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    #ExploreNow-Landing{
+        width: 150px;
+        height: 23px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: #000000;
+        margin-left: 20px;
+        font-size: 8px;
+    }
+        
+
+.Hero-Right{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Right img{
+    width: 330px;
+}    
 }
 @media(max-width: 786px){
+   .Hero-Main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 560px;
+    gap: 0px;
 
+}
+
+.Hero-Left{
+    width: 500px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+    .Hero-Left h1{
+        margin-top: 30px;
+        font-family: 'Michroma';
+        color: white;
+        font-size: 28px;
+        font-weight: 9000;
+
+    }
+    .Hero-Left p{
+        color: white;
+        font-family: 'Michroma';
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    #ShopNow-Landing{
+        margin-top: 10px;
+        width: 90px;
+        height: 23px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    #ExploreNow-Landing{
+        width: 150px;
+        height: 23px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: #b11111;
+        margin-left: 20px;
+        font-size: 8px;
+    }
+        
+
+.Hero-Right{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Right img{
+    width: 280px;
+}    
 }
 @media(max-width: 480px){
 
+    .Hero-Main{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 560px;
+    gap: 0px;
+
+}
+
+.Hero-Left{
+    width: 500px;
+    height: 500px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+
+    .Hero-Left h1{
+        margin-top: 60px;
+        font-family: 'Michroma';
+        color: white;
+        font-size: 22px;
+        font-weight: 9000;
+
+    }
+    .Hero-Left p{
+        color: white;
+        font-family: 'Michroma';
+        font-weight: 900;
+        margin-bottom: 10px;
+        font-size: 7px;
+    }
+    #ShopNow-Landing{
+        margin-top: 10px;
+        width: 90px;
+        height: 23px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    #ExploreNow-Landing{
+        width: 150px;
+        height: 23px;
+        border: none;
+        border-radius: 20px;
+        color: white;
+        background-color: #b11111;
+        margin-left: 10px;
+        font-size: 8px;
+    }
+        
+
+.Hero-Right{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Right img{
+    width: 280px;
+}    
 }

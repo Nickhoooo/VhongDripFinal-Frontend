@@ -28,3 +28,127 @@
         border-radius: 20px;
         font-size: 10px;
     }
+
+   @media (max-width: 1024px) {
+    .Banner-Main{
+    width: auto;
+    height: 310px;
+    background-color: rgb(128, 28, 28);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .Banner-Left img{
+       width: 300px; 
+       padding-top: 20px;
+    }
+    .Banner-Right{
+        width: 600px;
+    }
+    .Banner-Right h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 35px;
+    }
+    .Banner-Right p{
+        color: white;
+        font-size: 14px;
+
+    }
+    .Banner-Right button{
+        width: 90px;
+        height: 25px;
+        border: none;
+        border-radius: 20px;
+        font-size: 10px;
+    }
+   } 
+
+    @media (max-width: 768px) {
+    .Banner-Main{
+    width: auto;
+    height: 630px;
+    background-color: rgb(116, 41, 41);
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+    .Banner-Left img{
+       width: 300px; 
+       margin: 0px;
+       padding: 0px;
+    }
+    .Banner-Right{
+        width: 600px;
+        margin-bottom: 150px;
+        
+    }
+    .Banner-Right h1{
+        font-family: 'Michroma';
+        color: rgb(255, 250, 250);
+        font-size: 40px;
+        border: none;
+        margin: 0px;
+    }
+    .Banner-Right p{
+        color: rgb(228, 223, 223);
+    }
+    .Banner-Right button{
+        width: 100px;
+        height: 25px;
+        border: none;
+        border-radius: 20px;
+        font-size: 10px;
+        background-color: rgb(19, 18, 18);
+        color: white;
+    }
+   } 
+
+
+    @media (max-width: 425px) {
+    .Banner-Main{
+    width: auto;
+    height: 530px;
+    background-color: rgb(116, 41, 41);
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+    .Banner-Left img{
+       width: 250px; 
+       margin: 0px;
+       padding: 0px;
+
+       pointer-events: none;
+    }
+    .Banner-Right{
+        width: 370px;
+        margin-bottom: 100px;
+        
+    }
+    .Banner-Right h1{
+        font-family: 'Michroma';
+        color: rgb(255, 250, 250);
+        font-size: 20px;
+        border: none;
+        margin: 0px;
+    }
+    .Banner-Right p{
+        color: rgb(228, 223, 223);
+        font-size: 10px;
+    }
+    .Banner-Right button{
+        margin-top: 10px;
+        width: 80px;
+        height: 23px;
+        border: none;
+        border-radius: 20px;
+        font-size: 8px;
+        background-color: rgb(19, 18, 18);
+        color: white;
+    }
+   } 

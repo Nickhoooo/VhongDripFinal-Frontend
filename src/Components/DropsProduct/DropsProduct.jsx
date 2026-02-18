@@ -3,6 +3,7 @@ import NewSign from "../../assets/sign.png";
 import { useContext, useEffect, useState } from "react";
 import { CartContext } from "../../Context/CartContext";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 function DropsProduct({ newdrop }){
 
     const { addToCart } = useContext(CartContext);
@@ -33,7 +34,9 @@ function DropsProduct({ newdrop }){
                     </div>
                 </div>
                 <div className="Buttons-Container">
-                    <button id="Buy-Product">BUY NOW</button>
+                    <Link to={`/newdrop/${newdrop.id}`}>
+                        <button id="Buy-Product">BUY NOW</button>
+                    </Link>
                     <button onClick={handleAddToCart} id="Add-Product">ADD TO CART</button>
                 </div>
                 </div>

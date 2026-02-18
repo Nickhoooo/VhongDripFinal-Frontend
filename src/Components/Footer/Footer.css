@@ -216,11 +216,11 @@
             font-family: poppins;
         }
 }
-@media(max-width:480px){
+@media(max-width:425px){
     .Footer-container{
     width: auto;
     height: 300px;
-    gap: 10px;
+    gap: 7px;
     font-family: poppins;
 }
     .Footer-container hr{
@@ -233,7 +233,7 @@
         .Company-Name img{
             height: 45px;
             width: 45px;
-            margin-right: 20px;
+            margin-right: 10px;
         }
     .About-us{
         font-weight: 300px;
@@ -241,7 +241,7 @@
     }
         .Navbar{
             font-weight: 400px;
-            gap: 40px;
+            gap: 20px;
         }
         .Navbar a {
             font-size: 12px;

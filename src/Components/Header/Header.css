@@ -7,6 +7,10 @@
     align-items: center;
     justify-content: space-around;
 }
+    #logo{
+        width: 50px;
+        display: none;
+    }
 
     .Logoname-Container{
     display: flex;
@@ -89,8 +93,8 @@
         #LogOut-Button{
         width: 100px;
         height: 25px;
-        background-color: #790e0e;
-        color: rgb(238, 230, 230);
+        background-color: #f8f4f4;
+        color: rgb(10, 9, 9);
         border-radius: 30px;
         border: none;
         cursor: pointer;
@@ -102,6 +106,15 @@
             transform 0.2s ease,
             box-shadow 0.2s ease;
     }
+
+        #LogOut-Button:hover{
+            background-color: #99221ed3;
+            color: rgb(250, 255, 245);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        }
+
+
     .auth-wrapper {
     position: relative;
     }
@@ -129,4 +142,425 @@
         color: #070707;
         font-weight: 600;
     }
+    .auth-wrapper {
+  position: relative;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.burger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+    
+    @media(max-width: 1024px){
+        .Header-Main{
+    width: auto;
+    height: 110px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+      #logo{
+        width: 50px;
+        display: none;
+    }
+
+    .Logoname-Container{
+    display: flex;
+    flex-direction: column; 
+    }
+    .Logoname-Container span{
+        display: inline-block;
+        font-family: 'Michroma';
+        font-size: 10px;
+        margin: 0;
+        color: aliceblue;
+        font-weight: 500;
+    }
+
+    .Header-Main h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 20px;
+    }
+
+    .Header-Main nav{
+        font-family: poppins;
+        background: transparent;
+        
+    }
+
+    .Header-Main nav a{
+        font-weight: 600;
+        font-size: 10px;
+    
+    }
+    .Header-Main nav a:hover{
+        color: red;
+    }
+
+    .Header-Buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }    
+    #Login-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;  
+    }
+ 
+
+    #SignUp-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;
+    }
+
+        #LogOut-Button{
+        width: 90px;
+        height: 25px;
+        background-color: #f8f4f4;
+        color: rgb(10, 9, 9);
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .auth-wrapper {
+    position: relative;
+    }
+
+    .auth-buttons{
+        display: flex;
+        gap: 20px;
+    }
+
+    .Header-Buttons img{
+        width: 30px;
+        margin-left: 10px;
+    }
+    .CartCount{
+        width: 15px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+        margin-left: -20px;
+        border-radius: 11px;
+        font-size: 9px;
+        background-color: rgb(252, 252, 252);
+        color: #070707;
+        font-weight: 600;
+    }
+    }
+
+    @media(max-width: 768px){
+
+    .Header-Main{
+    width: auto;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-right: 50px;
+    
+}
+      #logo{
+        width: 40px;
+        display: block;
+    }
+
+    .Logoname-Container{
+    display: flex;
+    flex-direction: column; 
+    }
+    .Logoname-Container span{
+        display: inline-block;
+        font-family: 'Michroma';
+        font-size: 9px;
+        margin: 0;
+        color: aliceblue;
+        font-weight: 500;
+    }
+
+    .Header-Main h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 15px;
+        display: none;
+    }
+
+    .Header-Main nav{
+        font-family: poppins;
+        background: transparent;
+        
+    }
+
+    .Header-Main nav a{
+        font-weight: 600;
+        font-size: 9px;
+    
+    }
+    .Header-Main nav a:hover{
+        color: red;
+    }
+
+    .Header-Buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }    
+    #Login-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;  
+    }
+ 
+
+    #SignUp-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;
+    }
+
+        #LogOut-Button{
+        width: 80px;
+        height: 23px;
+        background-color: #f8f4f4;
+        color: rgb(10, 9, 9);
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 9px;
+        margin-right: 5px;
+    }
+
+    .auth-wrapper {
+    position: relative;
+    }
+
+    .auth-buttons{
+        display: flex;
+        gap: 20px;
+    }
+
+    .Header-Buttons img{
+        width: 25px;
+        margin-left: 10px;
+
+    }
+    .CartCount{
+        width: 15px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+        margin-left: -20px;
+        border-radius: 11px;
+        font-size: 9px;
+        background-color: rgb(252, 252, 252);
+        color: #070707;
+        font-weight: 600;
+    }
+
+        .auth-buttons {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        flex-direction: column;
+        background: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+        display: none;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .auth-buttons.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+        color: white;
+    }
+
+    }
+
+
+    @media(max-width: 425px){
+
+    .Header-Main{
+    width: auto;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 0px;
+}
+
+#logo{
+        width: 30px;
+        display: block;
+        margin-left: 10px;
+    }
+
+    .Logoname-Container{
+    display: flex;
+    flex-direction: column; 
+    }
+    .Logoname-Container span{
+        display: inline-block;
+        font-family: 'Michroma';
+        font-size: 5px;
+        margin: 0;
+        color: aliceblue;
+        font-weight: 100;
+        
+    }
+
+    .Header-Main h1{
+        font-family: 'Michroma';
+        color: white;
+        font-size: 15px;
+        display: none;
+    }
+
+    .Header-Main nav{
+        font-family: poppins;
+        display: flex;      /* REQUIRED */
+        gap: 0px;  
+        
+    }
+
+    .Header-Main nav a{
+        font-weight: 600;
+        font-size: 7px;
+        
+    
+    }
+    .Header-Main nav a:hover{
+        color: red;
+    }
+
+    .Header-Buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+    }    
+    #Login-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;  
+    }
+ 
+
+    #SignUp-Header{
+        width: 90px;
+        height: 25px;
+        border-radius: 20px;
+        border: none;
+        font-family: poppins;
+        font-size: 10px;
+    }
+
+        #LogOut-Button{
+        width: 60px;
+        height: 20px;
+        background-color: #f8f4f4;
+        color: rgb(10, 9, 9);
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 9px;
+        margin-right: 5px;
+    }
+
+    .auth-wrapper {
+    position: relative;
+    }
+
+    .auth-buttons{
+        display: flex;
+        gap: 20px;
+    }
+
+    .Header-Buttons img{
+        width: 25px;
+        margin-left: 10px;
+    }
+    .CartCount{
+        width: 15px;
+        height: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -35px;
+        margin-left: -20px;
+        border-radius: 11px;
+        font-size: 9px;
+        background-color: rgb(252, 252, 252);
+        color: #070707;
+        font-weight: 600;
+    }
+
+        .auth-buttons {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        flex-direction: column;
+        background: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 10px;
+        display: none;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
+
+    .auth-buttons.active {
+        display: flex;
+    }
+
+    .burger {
+        display: block;
+        color: white;
+    }
+
+    }
+
+
     

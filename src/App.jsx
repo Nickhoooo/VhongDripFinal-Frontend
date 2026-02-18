@@ -14,6 +14,7 @@ import Cart from './Pages/Cart';
 import LogIn from './Pages/LogIn';
 import SignUp from './Pages/SignUp';
 import DetailsProduct from "../src/Components/ProductDetails/ProductDetails"
+import DropDetails from './Components/DropDetails/DropDetails';
 
 //Dto nmn yung routes kumbaga eto yung cable sa netwrok para mag connect sila
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
 
         <Route path="/product/:id" element={<DetailsProduct/>}/>
+        <Route path='/newdrop/:id' element={<DropDetails/>}/>
     
       </Routes>
       <Footer/>

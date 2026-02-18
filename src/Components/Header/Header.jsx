@@ -5,6 +5,7 @@ import { useContext } from "react";
 import { CartContext } from "../../Context/CartContext";
 import { useState } from "react";
 import { useEffect } from "react";
+import logo from "../../assets/ardor.png";
 
 function Header(){
 
@@ -34,6 +35,7 @@ function Header(){
 
   return(
     <div className="Header-Main">
+      <img src={logo} alt="" id="logo"/>
       <div className="Logoname-Container">
        <h1>VHONG DRIP - STORE</h1>
         {user && <span> HELLO! {user.username}</span>}
@@ -42,7 +44,7 @@ function Header(){
       <nav>
         <Link to={"/"}>HOME</Link>
         <Link to={"/home"}>PRODUCT</Link>  {/*Home product ito*/}
-        <Link to={"/drops"}>NEW DROP</Link>
+        <Link to={"/drops"}>DROPS</Link>
       </nav>
       <div className="Header-Buttons">
         {user ? (
@@ -51,15 +53,22 @@ function Header(){
         </button>
       ) : (
         <div className="auth-wrapper">
-          <div className="auth-buttons">
-            <Link to="/login">
-              <button id="Login-Header">Log-In</button>
-            </Link>
-            <Link to="/signup">
-              <button id="SignUp-Header">Sign-Up</button>
-            </Link>
+              {/* Burger icon */}
+                  <div className="burger" onClick={() => setOpen(!open)}>
+                    ☰
+                  </div>
+
+                {/* Buttons */}
+                <div className={`auth-buttons ${open ? "active" : ""}`}>
+                <Link to="/login">
+                <button id="Login-Header">Log-in</button>
+                </Link>
+
+                <Link to="/signup">
+                <button id="SignUp-Header">Sign-up</button>
+                </Link>
+             </div>
           </div>
-        </div>
       )}
           <Link to={"/cart"}>
             <img src={CartIcon} alt="" />

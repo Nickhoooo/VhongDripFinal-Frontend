@@ -7,7 +7,7 @@
 }
 
 .cartitems-format-main{
-    margin-top: 100px;
+    margin-top: 20px;
     width: 80%;
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
@@ -172,7 +172,7 @@
 }
 
 .cartitems-format-main{
-    margin-top: 100px;
+    margin-top: 20px;
     width: 80%;
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
@@ -291,7 +291,7 @@
 }
 
 .cartitems-format-main{
-    margin-top: 100px;
+    margin-top: 20px;
     width: 90%;
     display: grid;
     grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
@@ -499,5 +499,6 @@
         height: 30px;
         padding-left: 10px;
     }
+    
 }
  
