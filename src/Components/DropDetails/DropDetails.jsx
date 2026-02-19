@@ -13,7 +13,7 @@ function DropDetails(){
   
 
     useEffect(() => {
-  fetch(`http://localhost/backend/public/newdrop?id=${id}`)
+  fetch(`https://vhongsdrip.great-site.net/public/newdrop?id=${id}`)
     .then(res => res.json())
     .then(data => {
       const prod = data.find(item => item.id === id); // find the product by id
@@ -43,16 +43,16 @@ function DropDetails(){
             <div className="MainProduct1">
                 <div className="MainProduct1-left">
                     <div className="display-4">
-                        <img src={`http://localhost/backend/images/${newdrop.image}`} alt={newdrop.name} />
-                        <img src={`http://localhost/backend/images/${newdrop.image}`} alt={newdrop.name} />
-                        <img src={`http://localhost/backend/images/${newdrop.image}`} alt={newdrop.name} />
-                        <img src={`http://localhost/backend/images/${newdrop.image}`} alt={newdrop.name} />
+                        <img src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} alt={newdrop.name} />
+                        <img src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} alt={newdrop.name} />
+                        <img src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} alt={newdrop.name} />
+                        <img src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} alt={newdrop.name} />
 
                      
                     </div>
                     <div className="display-main">
 
-                        <img src={`http://localhost/backend/images/${newdrop.image}`} alt={newdrop.name} />
+                        <img src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} alt={newdrop.name} />
 
                     </div>
                 </div>

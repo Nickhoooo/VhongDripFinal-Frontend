@@ -8,7 +8,7 @@ function HotProduct(){
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch("http://localhost/backend/public/products")
+        fetch("https://vhongsdrip.great-site.net/public/products")
             .then(res => res.json())
             .then(data => {
                 setProducts(data);

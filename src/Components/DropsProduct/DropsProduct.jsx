@@ -24,7 +24,7 @@ function DropsProduct({ newdrop }){
                 <div className="Product-Container">
                 <div id="Product-child">
                     <img 
-                    src={`http://localhost/backend/images/${newdrop.image}`} 
+                    src={`https://vhongsdrip.great-site.net/images/${newdrop.image}`} 
                     alt={newdrop.name}
                     />
                     <h3>{newdrop.name}</h3>

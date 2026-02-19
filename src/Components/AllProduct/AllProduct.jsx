@@ -24,7 +24,7 @@ function AllProduct({ product }){
         <div className="Product-Container">
           <div id="Product-child">
             <img 
-              src={`http://localhost/backend/images/${product.image}`} 
+              src={`https://vhongsdrip.great-site.net/images/${product.image}`} 
               alt={product.name}
             />
             <h3>{product.name}</h3>
@@ -46,7 +46,7 @@ function AllProduct({ product }){
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost/backend/public/products")
+    fetch("https://vhongsdrip.great-site.net/public/products")
       .then(res => res.json())
       .then(data => {
         setProducts(data);

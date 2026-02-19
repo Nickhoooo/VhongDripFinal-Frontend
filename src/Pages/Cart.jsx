@@ -37,7 +37,7 @@ function Cart(){
         setMessage("");
 
         try {
-            const response = await fetch("http://localhost/backend/public/checkout", {
+            const response = await fetch("https://vhongsdrip.great-site.net/public/checkout", {
                 method: "POST",
                 credentials: 'include',
                 headers: {
@@ -76,7 +76,7 @@ function Cart(){
      {cartItems.map(item => (
   <div className="CartItems-container" key={item.id + (item.newdrop?.id || '')}>
     <img
-      src={`http://localhost/backend/images/${item.newdrop?.display || item.image}`}
+      src={`https://vhongsdrip.great-site.net/images/${item.newdrop?.display || item.image}`}
       width="100"
       alt={item.name}
     />

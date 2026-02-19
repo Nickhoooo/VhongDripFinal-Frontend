@@ -48,7 +48,7 @@ function LogIn() {
             terms: formData.terms ? 'true' : 'false'
         }).toString();
 
-        const res = await fetch("http://localhost/backend/public/login", {
+        const res = await fetch("https://vhongsdrip.great-site.net/public/login", {
             method: "POST",
             credentials: "include", 
             headers: { "Content-Type": "application/x-www-form-urlencoded" },  
