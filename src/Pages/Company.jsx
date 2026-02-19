@@ -1,4 +1,4 @@
-import "../pages/CSS/Company.css";
+import "../Pages/CSS/Company.css";
 import Cover from "../assets/Cover-Photo.avif";
 import BigLogo from "../assets/BigLogo.png";
 import Jhiro from "../assets/Jhiro.png";

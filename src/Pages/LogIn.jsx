@@ -1,4 +1,4 @@
-import "./CSS/Login.css";
+import "../Pages/CSS/Login.css";
 import Display from "../assets/FormDisplay.png";
 import GmailImage from "../assets/gmail-account.png";
 import FacebookImage from "../assets/facebook-account.png";

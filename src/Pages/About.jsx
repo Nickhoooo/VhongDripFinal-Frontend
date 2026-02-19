@@ -1,4 +1,4 @@
-import "../pages/CSS/About.css";
+import "../Pages/CSS/About.css";
 import Cover from "../assets/Cover-Photo.avif";
 import { useEffect } from "react";
 import StoryModel from "../assets/Story-Model.avif";

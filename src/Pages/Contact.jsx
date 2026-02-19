@@ -1,4 +1,4 @@
-import "../pages/CSS/Contact.css";
+import "../Pages/CSS/Contact.css";
 import Cover from "../assets/Cover-Photo.avif";
 import { useEffect } from "react";
 import Header from "../Components/Header/Header";
