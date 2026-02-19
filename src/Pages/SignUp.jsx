@@ -70,7 +70,7 @@ function SignUp(){
     }
 
     const form = new URLSearchParams(formData).toString();
-    const res = await fetch("https://vhongsdrip.great-site.net/public/register", {
+    const res = await fetch("https://vhongsdrip.great-site.net/register", {
     method: "POST",
     credentials: "include", 
     headers: { "Content-Type": "application/x-www-form-urlencoded" },

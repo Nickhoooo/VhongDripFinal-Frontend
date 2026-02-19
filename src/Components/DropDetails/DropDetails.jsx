@@ -13,7 +13,7 @@ function DropDetails(){
   
 
     useEffect(() => {
-  fetch(`https://vhongsdrip.great-site.net/public/newdrop?id=${id}`)
+  fetch(`https://vhongsdrip.great-site.net/newdrop?id=${id}`)
     .then(res => res.json())
     .then(data => {
       const prod = data.find(item => item.id === id); // find the product by id

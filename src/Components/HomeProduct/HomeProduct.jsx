@@ -12,7 +12,7 @@ function HomeProduct(){
     } 
 
     useEffect(() => {
-        fetch ("https://vhongsdrip.great-site.net/public/products")
+        fetch ("https://vhongsdrip.great-site.net/products")
         .then(res => res.json())
         .then(data => setProducts(data))
         .catch(err => console.log("ERROR: ", err));

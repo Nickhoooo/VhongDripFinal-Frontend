@@ -11,7 +11,7 @@ function DropsMain(){
     } 
 
     useEffect(() => {
-        fetch ("https://vhongsdrip.great-site.net/public/newdrop")
+        fetch ("https://vhongsdrip.great-site.net/newdrop")
         .then(res => res.json())
         .then(data => setNewdrop(data))
         .catch(err => console.log("ERROR: ", err));

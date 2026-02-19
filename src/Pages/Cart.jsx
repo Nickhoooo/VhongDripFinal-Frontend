@@ -37,7 +37,7 @@ function Cart(){
         setMessage("");
 
         try {
-            const response = await fetch("https://vhongsdrip.great-site.net/public/checkout", {
+            const response = await fetch("https://vhongsdrip.great-site.net/checkout", {
                 method: "POST",
                 credentials: 'include',
                 headers: {
