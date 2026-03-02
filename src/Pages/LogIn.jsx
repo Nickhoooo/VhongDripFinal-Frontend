@@ -9,8 +9,6 @@ import Header from "../Components/Header/Header";
 
 function LogIn() {
 
-
-
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -69,7 +67,7 @@ function LogIn() {
                 localStorage.setItem("user", JSON.stringify(data.user));
             }
             alert("Login successful!");
-            window.location.href = "/home";
+            window.location.href = "/";
         } else {
             alert(data.message || "Login failed");
         }

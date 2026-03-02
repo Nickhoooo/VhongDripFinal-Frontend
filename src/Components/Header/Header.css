@@ -500,14 +500,14 @@
     }
 
         #LogOut-Button{
-        width: 60px;
-        height: 20px;
+        width: 50px;
+        height: 18px;
         background-color: #f8f4f4;
         color: rgb(10, 9, 9);
         border-radius: 30px;
         border: none;
         cursor: pointer;
-        font-size: 9px;
+        font-size: 8px;
         margin-right: 5px;
     }
 
@@ -521,19 +521,19 @@
     }
 
     .Header-Buttons img{
-        width: 25px;
+        width: 20px;
         margin-left: 10px;
     }
     .CartCount{
-        width: 15px;
-        height: 15px;
+        width: 12px;
+        height: 12px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: -35px;
         margin-left: -20px;
         border-radius: 11px;
-        font-size: 9px;
+        font-size: 8px;
         background-color: rgb(252, 252, 252);
         color: #070707;
         font-weight: 600;
