@@ -11,7 +11,12 @@ function HotProduct(){
         fetch("https://vhongsdrip.great-site.net/products")
             .then(res => res.json())
             .then(data => {
-                setProducts(data);
+                if (Array.isArray(data)) {
+                    setProducts(data);
+                } else {
+                    console.error("API Error:", data);
+                    setProducts([]);
+                }
                 setLoading(false);
             })
             .catch(err => {
@@ -30,28 +35,28 @@ function HotProduct(){
             <div className="HotProduct-Display">
                 <div className="HotProduct-Child">
                     {products
-                        .filter(product => product.id === "1") 
+                        .filter(product => product.id === "5") 
                         .map(product => (
                         <AllProduct key={product.id} product={product} />
                     ))}
                 </div>
                 <div className="HotProduct-Child">
                     {products
-                        .filter(product => product.id === "2") 
+                        .filter(product => product.id === "6") 
                         .map(product => (
                         <AllProduct key={product.id} product={product} />
                     ))}
                 </div>
                 <div className="HotProduct-Child">
                     {products
-                        .filter(product => product.id === "3") 
+                        .filter(product => product.id === "7") 
                         .map(product => (
                         <AllProduct key={product.id} product={product} />
                     ))}
                 </div>
                 <div className="HotProduct-Child">
                     {products
-                        .filter(product => product.id === "4") 
+                        .filter(product => product.id === "8") 
                         .map(product => (
                         <AllProduct key={product.id} product={product} />
                     ))}

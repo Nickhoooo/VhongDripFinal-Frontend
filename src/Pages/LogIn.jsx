@@ -1,14 +1,12 @@
 import "../Pages/CSS/Login.css";
 import Display from "../assets/FormDisplay.png";
-import GmailImage from "../assets/gmail-account.png";
-import FacebookImage from "../assets/facebook-account.png";
-import TiktokImage from "../assets/tiktok-account.png";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 
 function LogIn() {
-
+  const navigate = useNavigate(); 
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -28,7 +26,7 @@ function LogIn() {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    // ✅ Validation (add this!)
+   
     if (!formData.email || !formData.password) {
         alert("Please fill in all fields");
         return;
@@ -67,7 +65,13 @@ function LogIn() {
                 localStorage.setItem("user", JSON.stringify(data.user));
             }
             alert("Login successful!");
-            window.location.href = "/";
+
+          if (data.role === "admin") {
+            navigate("/admin");
+          } else {
+            navigate("/");
+          }
+
         } else {
             alert(data.message || "Login failed");
         }
@@ -126,11 +130,7 @@ function LogIn() {
             />
           </form>
 
-          <div className="social-mediaAcc">
-            <img src={GmailImage} alt="" />
-            <img src={FacebookImage} alt="" />
-            <img src={TiktokImage} alt="" />
-          </div>
+         
           <label id="Clickhere">
             Don’t have an account?
             <Link to={"/signup"}>
@@ -144,10 +144,8 @@ function LogIn() {
         </div>
       </div>
     </div>
-    
+    <Footer/>
     </>
-
-    
   );
 }
 

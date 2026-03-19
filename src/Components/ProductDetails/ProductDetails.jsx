@@ -81,14 +81,17 @@ function ProductDetails(){
                         {product.category}
                     </p>
                     <p id="product-size">Select Size:</p>
-                    <div className="Sizes">
-                        <div>S</div>
-                        <div>M</div>
-                        <div>L</div>
-                        <div>XL</div>
-                        <div>XXL</div>
-                    </div>
-                    <button onClick={handleAddToCart}>
+
+                    <select name="" id="Sizes">
+                        <option value="" disabled selected>size</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                        <option value="">XXL</option>
+                    </select>
+
+                    <button id="Addtocart-btn" onClick={handleAddToCart}>
                     Add to cart
                 </button>
                 </div>

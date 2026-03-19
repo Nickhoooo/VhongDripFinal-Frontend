@@ -1,0 +1,161 @@
+.Main-Dashboard{
+    margin:0;
+    background:#5f5f5f;
+}
+
+.Header-Top{
+    width:100%;
+    height:80px;
+    background:#5f5f5f;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding-left:20px;
+    font-weight:bold;
+    position:fixed;
+    top:0;
+    left:0;
+    gap: 70px;
+}
+.Header-Top h1{
+
+}
+.Header-Top img{
+    width: 45px;
+}
+.Sidebar{
+    width:80px;
+    height:100vh;
+    background:#5f5f5f;
+    position:fixed;
+    top:80px; 
+    left:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Sidebar a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-decoration:none;
+}
+#UserIcon{
+    width: 40px;
+    margin-top: 35px;
+}
+
+#MP-Icon{
+    width: 40px;
+    margin-top: 30px;
+}
+
+#PaymentVeriIcon{
+    width: 40px;
+    margin-top: 30px;
+}
+
+#User-Text{
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+#ManageProduct{
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 4px;
+    text-align: center;
+}
+
+#PaymentVeri-Text{
+    font-family: poppins;
+    font-weight: 500;
+    color: white;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 4px;
+    text-align: center;
+}
+
+#logout{
+    width: 40px;
+    margin-top: 500px;
+}
+#logout-text{
+    color: #f5f2f2;
+    font-size: 12px;
+}
+
+
+
+
+/*=================MAIN EVENT SA DASHBOARD=====================*/
+.Dashboard-Content{
+    margin-left:80px;
+    margin-top:80px; 
+    padding:20px;
+    background:#f5f2f2;
+    height:100vh;
+    border-top-left-radius: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.Dashboard-Content h2{
+    margin: 0;
+}
+
+.TotalOfUser-Container{
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(147, 209, 209);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.VerifiedUsers-Container{
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(221, 176, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.PendingPayment-Container{
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(224, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CompletePayment-Container{
+    height: 150px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: rgb(224, 132, 132);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Dashboard-Content img{
+    width: 40px;
+}

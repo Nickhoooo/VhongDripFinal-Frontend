@@ -30,7 +30,6 @@ function DropsMain(){
                     <option value="Tshirt">T-shirt</option>
                     <option value="Hoodie">Hoodie</option>
                     <option value="LongSleeve">LongSleeve</option>
-                    <option value="Shoes">Shoes</option>
                     <option value="Sleeve">Sleeve</option>
                 
                 </select>

@@ -1,11 +1,9 @@
 import "../Pages/CSS/SignUp.css";
 import Display from "../assets/FormDisplay.png";
-import GmailImage from "../assets/gmail-account.png";
-import FacebookImage from "../assets/facebook-account.png";
-import TiktokImage from "../assets/tiktok-account.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 
 function SignUp(){
 
@@ -16,6 +14,7 @@ function SignUp(){
         lastname: "",
         phone: "",
         address: "",
+        ModeofPayment: "",
         email: "",
         username: "",
         password: "",
@@ -41,6 +40,7 @@ function SignUp(){
         const username = formData.username.trim();
         const password = formData.password;
         const term = formData.terms;
+        const ModeofPayment = formData.ModeofPayment;
 
 
     if(!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)){
@@ -68,6 +68,7 @@ function SignUp(){
         alert ("invalid phone number");
         return;
     }
+    
 
     const form = new URLSearchParams(formData).toString();
     const res = await fetch("https://vhongsdrip.great-site.net/register", {
@@ -127,7 +128,7 @@ function SignUp(){
                             className="Input-SignUp"
                             name="firstname"
                             placeholder="First Name"
-                            value={formData.firstName}
+                            value={formData.firstname}
                             onChange={handleChange}
                              />
 
@@ -135,7 +136,7 @@ function SignUp(){
                             className="Input-SignUp"
                             name="lastname"
                             placeholder="Last Name"
-                            value={formData.lastName}
+                            value={formData.lastname}
                             onChange={handleChange}
                             />
 
@@ -165,12 +166,23 @@ function SignUp(){
 
                     { step === 2 && (
                         <div className="step2">
+                        <select 
+                            name="ModeofPayment" 
+                            id="ModeofPayment"
+                            value={formData.ModeofPayment}  
+                            onChange={handleChange}>
+                                <option value="" disabled selected>Mode Of Payment</option>
+                                <option value="cash">Cash</option>
+                                <option value="gcash">Gcash</option>
+                        </select>
+
                              <input 
                             className="Input-SignUp" 
                             name="email" 
                             type="email" 
                             placeholder="Email" 
-                            value={formData.email} onChange={handleChange}
+                            value={formData.email} 
+                            onChange={handleChange}
                             />
                             <input 
                             className="Input-SignUp" 
@@ -213,16 +225,10 @@ function SignUp(){
                             </button> 
                         </div>
                             
-
                         </div>
                     )} </form>
 
-                <div className="social-mediaAcc">
-                    <img src={GmailImage} alt="" />
-                    <img src={FacebookImage} alt="" />
-                    <img src={TiktokImage} alt="" />
-                    
-                </div>
+               
                 <label id="Clickhere">Already hava an account?<Link to={'/login'}><span>Click here</span></Link></label>
             </div>
 
@@ -233,7 +239,7 @@ function SignUp(){
             </div>
         </div>
         </div>
-        
+        <Footer/>
         
         </>
 

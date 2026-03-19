@@ -8,7 +8,7 @@ import Artiaga from "../assets/Artiaga.jpg";
 import Apilado from "../assets/Apilado.jpg";
 import { useEffect } from "react";
 import Header from "../Components/Header/Header";
-
+import Footer from "../Components/Footer/Footer";
 function Company(){
 
 
@@ -162,6 +162,7 @@ function Company(){
 
 
     </div>
+    <Footer/>
         </>
         
     );

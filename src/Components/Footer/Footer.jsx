@@ -1,9 +1,6 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/logo (1).png";
-import Facebook from "../../assets/facebook (1).png";
-import Instagram from "../../assets/instagram (1).png" 
-import Tiktok from "../../assets/social-media.png";
 
 function Footer(){
     return(
@@ -20,10 +17,13 @@ function Footer(){
                     <Link to="/contact">Contact</Link>
                  </nav>
             </div>
+            {/*ETO PRE LALAGYAN NG MGA LINK NEED NYO GUMAWA NG ACC FOR VHONGDRIP SYEMPRE TAS PAG NAKAGAWA NA KAU KUNIN NYO LINK TAS PASTE NA LANG GANUN O KAAYA CHAT GPT NYO HOW TO PUT A LINK ON REACT.JS*/}
+
+            {/*ask ka lang sakin pre pag may tanong ka*/}
+
+
             <div className="SocialMedia">
-                <img src={Facebook} alt="FacebookIcon" />
-                <img src={Instagram} alt="InstagramIcon" />
-                <img src={Tiktok} alt="TiktokIcon" />
+
             </div>
             <hr />
             <div className="Owner">

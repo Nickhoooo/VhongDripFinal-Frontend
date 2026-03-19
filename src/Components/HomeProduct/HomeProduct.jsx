@@ -14,7 +14,14 @@ function HomeProduct(){
     useEffect(() => {
         fetch ("https://vhongsdrip.great-site.net/products")
         .then(res => res.json())
-        .then(data => setProducts(data))
+        .then(data => {
+            if (Array.isArray(data)) {
+                setProducts(data);
+            } else {
+                console.error("API Error:", data);
+                setProducts([]);
+            }
+        })
         .catch(err => console.log("ERROR: ", err));
     }, []);
 
@@ -31,7 +38,6 @@ function HomeProduct(){
                 <option value="Tshirt">T-shirt</option>
                 <option value="Hoodie">Hoodie</option>
                 <option value="LongSleeve">LongSleeve</option>
-                <option value="Shoes">Shoes</option>
                  <option value="Sleeve">Sleeve</option>
             
             </select>

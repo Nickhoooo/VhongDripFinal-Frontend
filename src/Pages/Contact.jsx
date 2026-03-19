@@ -2,6 +2,7 @@ import "../Pages/CSS/Contact.css";
 import Cover from "../assets/Cover-Photo.avif";
 import { useEffect } from "react";
 import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 function Contact(){
           
     return(
@@ -27,6 +28,7 @@ function Contact(){
             </div>
            
         </div>
+        <Footer/>
       </>
        
     );

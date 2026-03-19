@@ -76,24 +76,19 @@
                 font-family: poppins;
                 margin-top: 10px;
             }
-            .Sizes{
-                display: flex;
-                gap: 10px;
-                font-family: poppins;
-            }
-            .Sizes div{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                width: 30px;
-                height: 30px;
+            #Sizes{
+                width: 110px;
+                height: 25px;
+                border-radius: 20px;
                 background-color: rgb(255, 255, 255);
+                color: black;
+                font-size: 12;
+                font-weight: 400;
+                font-family: poppins;
                 text-align: center;
-                font-size: 10px;
-                font-weight: 500;
-                border: solid 1px gray;
             }
-            .MainProduct1-right button{
+           
+            #Addtocart-btn{
                 width: 100px;
                 height: 30px;
                 border: none;
@@ -110,7 +105,7 @@
                 box-shadow 0.2s ease;
             }
 
-            .MainProduct1-right button:hover{
+            #Addtocart-btn:hover{
                 background-color: #be1818d3;
                 color: rgb(250, 255, 245);
                 transform: translateY(-2px);

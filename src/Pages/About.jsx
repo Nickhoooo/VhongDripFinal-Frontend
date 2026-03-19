@@ -3,6 +3,7 @@ import Cover from "../assets/Cover-Photo.avif";
 import { useEffect } from "react";
 import StoryModel from "../assets/Story-Model.avif";
 import Header from "../Components/Header/Header";
+import Footer from "../Components/Footer/Footer";
 
 function About(){
           
@@ -44,7 +45,7 @@ function About(){
             </div>
             
         </div>
-        
+        <Footer/>
         </>
        
     );
